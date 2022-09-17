@@ -1,5 +1,6 @@
 import java.util.*;
 
+//O(n!*n)
 public class Permutation {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> results = new ArrayList<List<Integer>>();
